@@ -1,0 +1,143 @@
+.borderr{
+    border: 5px solid black;
+}
+.preNav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hoverLi a{
+    color: red;
+}
+.hoverLi:hover{
+    background-color: red;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.homeHeader{
+    background-image: url('sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgDiv{
+    margin: 50px;
+    width: 50%;
+    background-color: rgb(132, 130, 130, 50%);
+}
+.cirkl{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 20px;
+    
+}
+.kut{
+    width: 250px;
+    height: 180px;
+    border: 1px solid black;
+    margin: 15px;
+}
+.seckut{
+    width: 250px;
+    background-color: rgb(143, 138, 138, 60%);
+    font-weight: bolder;
+    font-size: larger;
+}
+#one{
+    background-image: url(pro1.jpg);
+    background-size: contain;
+}
+#two{
+    background-image: url(pro2.jpg);
+    background-size: contain;
+}
+#tree{
+    background-image: url(pro3.jpg);
+    background-size: contain;
+}
+#four{
+    background-image: url(pro4.jpg);
+    background-size: contain;
+}
+#five{
+    background-image: url(pro5.jpg);
+    background-size: contain;
+}
+#six{
+    background-image: url(pro6.jpg);
+    background-size: contain;
+}
+.headerServices{
+    background-image: url(pro3.jpg);
+    background-size: cover;
+}
+.grid{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 10px;
+}
+#ela1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(pro1.jpg);
+    background-size: cover;
+}
+#ela2{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url(pro2.jpg);
+    background-size: cover;
+}
+#ela3{
+    grid-column:3/4 ;
+    grid-row:1/2 ;
+    background-image: url(pro3.jpg);
+    background-size: cover;
+}
+#ela4{
+    grid-column: 1/3 ;
+    grid-row:3/4 ;
+    background-image: url(pro4.jpg);
+    background-size: cover;
+
+}
+#ela5{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(pro5.jpg);
+    background-size: cover;
+}
+#ela6{
+    grid-column: 3/4;
+    grid-row: 3/4;
+
+    background-image: url(pro6.jpg);
+    background-size: cover;
+}
+#ela7{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url(sky.jpg);
+    background-size: cover;
+}
+.karijera{
+    background-image: url(pro2.jpg);
+    background-size: cover;
+}
+.oglas{
+    width: 550px;
+    height: 400px;
+    background-color: rgb(143, 138, 138, 60%);
+}
+.tehno{
+    height: 400px;
+}
+.maps{
+    width: 400px;
+    height: 400px;
+}
